@@ -1,8 +1,4 @@
 
-window.onload = () => {
-  
-    
-}
 const calBill = () => {
     const billInput = document.getElementById("bill");
     const tipInput = document.getElementById('tip');
