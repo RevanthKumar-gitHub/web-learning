@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TipCalculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="bill">Bill Total</div>
+        <input type="text" placeholder="$0.00" onkeyup="calBill()" id="bill" class="billinput" >
+        <div class="bill" >Tip</div>
+        <input type="text"  id="tip" placeholder="%0.00" class="billinput" onkeyup="calBill()" >
+        <div class="bill">People</div>
+        <div class="pep">
+            <button class="add" onclick="increasepep()">+</button>
+            <p style="color: white;" id="people">1</p>
+            <button class="add" onclick="decreasepep()">-</button>
+            <div class="res">Total per Person
+            </div>
+        </div>
+        <div class="result" id="res">$0.00</div>
+    </div>
+</body>
+</html>
