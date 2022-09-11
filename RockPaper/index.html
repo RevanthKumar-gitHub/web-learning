@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaper</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <span class="container">
+        <div class="rps">
+            <button class="button" id="r" value="rock" onclick="humanVal(this)"><img  class="img" src="./rock.png" alt="ROCK" height="100em" width="80em"></button>
+            <button class="button"  id="p" value="paper" onclick="humanVal(this)"><img class="img"  src="./paper.png" alt="paper" height="100em" width="80em"></button>
+            <button class="button"  id="s" value="scissors" onclick="humanVal(this)"><img  class="img" src="./scissors.png" alt="scissors" height="100em" width="80em"></button>
+            <button class="button clear" value="stop" onclick="humanVal(this)"><img  class="img" src="./stop.png" alt="stop" height="100em" width="80em"></button>
+        </div>
+    </span>
+    <span id="result"></span>
+</body>
+</html>

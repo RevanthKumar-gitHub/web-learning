@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    color: black;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(112, 248, 219);
+}
+.container
+{
+    
+    display: flex;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.button,.button:focus
+{
+    outline: black;
+    background-color: rgba(255, 255, 255, 0.918);
+    border: none;
+    margin: 2px;
+    padding: 5px;
+    width: 10em;
+    border-radius: 2em;
+}
+
+.img
+{
+    border-radius: 20px;
+}
+
+#result
+{
+    margin: auto;
+    width: max-content;
+    color: rgb(50, 79, 141);
+    background-color: rgba(0, 0, 0, 0.281);
+    padding: 20px;
+    border-radius: 20px;
+    font-style: italic;
+    font-size: 20px;
+}
+
